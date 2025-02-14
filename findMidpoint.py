@@ -1,6 +1,6 @@
 from typing import Tuple
 
-def findMidPoint(x1: int | float, x2: int | float, y1: int | float, y2: int | float) -> Tuple[int | float, int | float]:
+def findMidpoint(x1: int | float, x2: int | float, y1: int | float, y2: int | float) -> Tuple[int | float, int | float]:
     return (x1 + x2) / 2, (y1 + y2) / 2
 
 def getUserInput() -> Tuple[int | float, int | float, int | float, int | float]:
@@ -31,7 +31,7 @@ def getUserInput() -> Tuple[int | float, int | float, int | float, int | float]:
 def main():
     x1, y1, x2, y2 = getUserInput()
 
-    midpointX, midpointY = findMidPoint(x1, x2, y1, y2)
+    midpointX, midpointY = findMidpoint(x1, x2, y1, y2)
 
     print(f"The midpoint between the two points is: {midpointX}, {midpointY}")
 

@@ -1,1 +1,1 @@
-# school
+# school, A collection of school projects, or scripts I wrote in school
